@@ -18,7 +18,7 @@ function Home({setActiveTab}) {
     )
   }
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden transition-all duration-300">
       <div className="w-full flex justify-between p-2">
         <img width={"50px"} src={logo} alt="placeholder" />
         <div class="flex -space-x-4 rtl:space-x-reverse">
